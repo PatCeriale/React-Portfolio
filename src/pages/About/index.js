@@ -36,11 +36,11 @@ export default function About() {
                 </p>
 
                 <p>
-                  I have attached my resume at the bottom of this page, as well
-                  as my most recent projects, located in the Project Portfolio
-                  tab. Feel free to view these at your leisure, I hope you enjoy
-                  my work. Don't hesitate to reach out via my contacts if you
-                  have any questions.
+                  I have attached a link my resume at the bottom of this page,
+                  as well as my most recent projects, located in the Project
+                  Portfolio tab. Feel free to view these at your leisure, I hope
+                  you enjoy my work. Don't hesitate to reach out via my contacts
+                  if you have any questions.
                 </p>
                 <br />
               </div>
