@@ -10,9 +10,10 @@ pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pd
 
 function Resume() {
   function convertHTMLtoPDF() {
-    var doc = new jsPDF();
-    var elementHTML = document.querySelector(".full-resume").innerHTML();
-    var specialElementHandlers = {
+    const doc = new jsPDF();
+    const elementHTML = document.querySelector(".full-resume").html();
+    console.log(elementHTML);
+    const specialElementHandlers = {
       "#elementH": function (element, renderer) {
         return true;
       },
@@ -208,7 +209,7 @@ function Resume() {
             </div>
           </div>
         </div>
-        <button className="resume-btn" onClick={convertHTMLtoPDF()}>
+        <button className="resume-btn" onClick={convertHTMLtoPDF}>
           Download to PDF
         </button>
       </div>

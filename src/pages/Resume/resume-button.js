@@ -1,7 +1,7 @@
 import { jsPDF } from "jspdf";
 function convertHTMLtoPDF() {
   var doc = new jsPDF();
-  var elementHTML = document.querySelector(".full-resume").innerHTML();
+  var elementHTML = document.querySelector(".full-resume").html();
   var specialElementHandlers = {
     "#elementH": function (element, renderer) {
       return true;
